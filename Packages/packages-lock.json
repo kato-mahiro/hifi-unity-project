@@ -1,8 +1,22 @@
 {
   "dependencies": {
+    "com.endel.nativewebsocket": {
+      "version": "https://github.com/endel/NativeWebSocket.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "90f55f370aecb5911f0b7820f09beea5ff791cb3"
+    },
     "com.unity.collab-proxy": {
       "version": "1.9.0",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -79,6 +93,16 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.webrtc": {
+      "version": "https://github.com/highfidelity/com.unity.webrtc.git#2.4.0-directAudio",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "hash": "e5f8b8d0d966fa69863cfc06124c69f95cd8fabe"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
