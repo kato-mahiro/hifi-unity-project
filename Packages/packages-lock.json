@@ -7,6 +7,16 @@
       "dependencies": {},
       "hash": "90f55f370aecb5911f0b7820f09beea5ff791cb3"
     },
+    "com.highfidelity.spatialized-audio": {
+      "version": "https://github.com/highfidelity/hifi-spatial-audio-unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.endel.nativewebsocket": "1.1.1",
+        "com.unity.webrtc": "2.4.0-directAudio"
+      },
+      "hash": "9b2ab8452466486fe7ef0e05ea1010c0f786986a"
+    },
     "com.unity.collab-proxy": {
       "version": "1.9.0",
       "depth": 0,
